@@ -12,12 +12,12 @@ public class Person {
 	//Behavior
 	public Person(String name){
 		
-		System.out.println("Welcomt to new class");
+		System.out.println("Welcome to new class");
 		this.name = name;
 	}
 	public Person(){
 		
-		System.out.println("Welcomt to new class and I don't have any basic value of Name");
+		System.out.println("Welcome to new class and I don't have any basic value of Name");
 	}
 	
 	public String getName() {
@@ -27,7 +27,7 @@ public class Person {
 		this.name = name;
 	}
 
-	public String introduce(){
+	public String introduce() {
 		return "My name is " + name;
 	}
 	

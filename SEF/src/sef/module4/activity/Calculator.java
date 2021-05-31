@@ -4,7 +4,7 @@
 package sef.module4.activity;
 
 /**
- * @author 
+ * @author Ernests Subhankulovs
  *
  */
 
@@ -16,7 +16,9 @@ public class Calculator {
 	public static final String CALC_TYPE_BASIC = "Basic";
 	
 	// Default constructor
-	public Calculator() {}
+	public Calculator() {
+
+	}
 	
 	// Parameterized constructor
 	public Calculator(String calculatorType) {
@@ -34,43 +36,32 @@ public class Calculator {
 	}
 	
 	// Add 
-	public int add(object ;) {
+	public int add(int x, int y) {
 		int sum = x + y;
 		return sum;
 	}
 
 	// Subtract
 	public int subtract(int x, int y) {
-		int diff = 0;
-		if (x > y) {
-			diff = x - y;
-		} else {
-			diff = y - x;
-		}
-
-		return diff;
+		int sub = x - y;
+		return sub;
 	}
 
 	// Multiply
-	public int multiply(int[] numbers) {
-		int temp = 1;
-
-		for (int i = 0; i < numbers.length; i++) {
-			temp = temp * numbers[i];
-		}
-		return temp;
-
+	public int multiply(int x, int y) {
+		int mul = x * y;
+		return mul;
 	}
 
 	// Divide
 	public int divide(int x, int y) {
-		int divValue = 0;
-		if (x == 0 || y == 0) {
-			divValue = 0;
+		int div;
+		if (y == 0) {
+			div = 0;
+			System.out.println("Division by Zero is not allowed!");
 		} else {
-			divValue = x / y;
+			div = x / y;
 		}
-		return divValue;
-
+		return div;
 	}
 }

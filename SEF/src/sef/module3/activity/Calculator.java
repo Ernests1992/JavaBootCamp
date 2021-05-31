@@ -1,34 +1,24 @@
 /**
- * 
+ *
  */
 package sef.module3.activity;
 
-
-
-
 /**
- * @author 
+ * @author Ernests Subhankulovs
  *
  */
 public class Calculator {
-	
-		
+
 	public static void main(String[] args) {
-		Person p1 = new Person("Atif");
-		Person p2 = new Person("Gatis");
-		
-	int x = 10;
-	int y = 0;
-	
-	int[] nums = {1, 2, 3, 4};
-//	
-//	System.out.println("Addition - " + add(x,y));
-//	System.out.println("Subtraction - " + subtract(x,y)); // x = 10, y - 20 =  10 - (-20)
-//	System.out.println("Multiply - " + multiply(nums));
-	System.out.println("Divide - " + divide(x,y));
-	
-	if 
-	
+		int x = 10;
+		int y = 0;
+
+		int[] nums = {1, 2, 3, 4};
+
+		System.out.println("Addition - " + add(x,y));
+		System.out.println("Subtraction - " + subtract(x,y)); // x = 10, y - 20 = 10 - (-20)
+		System.out.println("Multiply - " + multiply(nums));
+		System.out.println("Divide - " + divide(x,y));
 	}
 
 
@@ -41,10 +31,10 @@ public class Calculator {
 		int diff = 0;
 		if (x > y) {
 			// complete the code
-			diff = x-y;
+			diff = x - y;
 		} else {
 			// complete the code
-			diff = y-x;
+			diff = y - x;
 		}
 
 		return diff;
@@ -63,17 +53,18 @@ public class Calculator {
 	private static int divide(int x, int y) {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
+			// complete the code
 			System.out.println("One of the number is 0, I can't do the divide operation");
 			divValue = 0;
-			return ;
-			// complete the code 
-		} else {
-			divValue = x/y;
+			return divValue;
+		}
+		else {
 			// complete the code
+			divValue = x / y;
 		}
 		return divValue;
 
 	}
-	
+
 }
 

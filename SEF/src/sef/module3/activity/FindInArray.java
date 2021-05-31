@@ -4,7 +4,7 @@
 package sef.module3.activity;
 
 /**
- * @author 
+ * @author Ernests Subhankulovs
  *
  */
 public class FindInArray {
@@ -25,7 +25,7 @@ public class FindInArray {
 				result = nums[i];
 			}
 		}
-		System.out.println("Smallest in array is "+result);
+		System.out.println("Smallest in array is " + result);
 		
 		result = nums[0];
 		
@@ -35,8 +35,7 @@ public class FindInArray {
 				result = nums[i];
 			}
 		}
-		System.out.println("Largest in array is "+result);
-
+		System.out.println("Largest in array is " + result);
 	}
 
 }
