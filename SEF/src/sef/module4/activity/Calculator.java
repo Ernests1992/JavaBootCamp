@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package sef.module4.activity;
 
@@ -11,15 +11,15 @@ package sef.module4.activity;
 
 public class Calculator {
 
-	
+
 	private String calculatorType;
 	public static final String CALC_TYPE_BASIC = "Basic";
-	
+
 	// Default constructor
 	public Calculator() {
 
 	}
-	
+
 	// Parameterized constructor
 	public Calculator(String calculatorType) {
 		this.calculatorType = calculatorType;
@@ -34,8 +34,8 @@ public class Calculator {
 	public void setCalculatorType(String calculatorType) {
 		this.calculatorType = calculatorType;
 	}
-	
-	// Add 
+
+	// Add
 	public int add(int x, int y) {
 		int sum = x + y;
 		return sum;
@@ -43,25 +43,32 @@ public class Calculator {
 
 	// Subtract
 	public int subtract(int x, int y) {
-		int sub = x - y;
-		return sub;
+		int diff = 0;
+		if (x > y) {
+			diff = x - y;
+		} else {
+			diff = y - x;
+		}
+		return diff;
 	}
 
 	// Multiply
-	public int multiply(int x, int y) {
-		int mul = x * y;
-		return mul;
+	public int multiply(int[] numbers) {
+		int temp = 1;
+		for (int i = 0; i < numbers.length; i++) {
+			temp = temp * numbers[i];
+		}
+		return temp;
 	}
 
 	// Divide
 	public int divide(int x, int y) {
-		int div;
-		if (y == 0) {
-			div = 0;
-			System.out.println("Division by Zero is not allowed!");
+		int divValue = 0;
+		if (x == 0 || y == 0) {
+			divValue = 0;
 		} else {
-			div = x / y;
+			divValue = x / y;
 		}
-		return div;
+		return divValue;
 	}
 }
