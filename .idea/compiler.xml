@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module2" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module3" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module4" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module5" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module6" includeSubdirectories="false" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module7" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module8" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module9" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module10" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module11" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module12" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module13" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module14" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module15" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module17" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SEF/src/sef/module19" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <bytecodeTargetLevel target="16" />
+  </component>
+</project>

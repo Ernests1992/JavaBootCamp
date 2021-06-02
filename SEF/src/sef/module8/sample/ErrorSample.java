@@ -9,7 +9,7 @@ public class ErrorSample {
 		} catch (ArithmeticException e) {
 			System.out.println("I can't divide number by 0");
 		}
-		//infinity();
+		infinity();
 		
 		
 	}
@@ -18,15 +18,14 @@ public class ErrorSample {
 	//it happens infinite times because there is no exit condition
 	//At one point in time, JVM would give up and show StackOverflowError
 	
-	
 	public static int divide(int a, int b) {
-		return a/b;		
+		return a / b;
 	}
+
 	public static void infinity(){
 		//1 - Print a message
 		System.out.println("Infinity!");
 		//2 - Call infinity()
 		infinity();
-	
 	}
 }

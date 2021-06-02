@@ -11,7 +11,8 @@ public class Student_I extends Person_I {
 	
 	//Behavior - default constructor
 	public Student_I(){ 
-		System.out.println("I'm Student_I constructor"); 
+
+		System.out.println("I'm Student_I constructor");
 	}
 	
 	// getter for int grade

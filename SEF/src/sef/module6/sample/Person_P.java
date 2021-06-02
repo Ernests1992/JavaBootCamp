@@ -10,7 +10,7 @@ public class Person_P {
 	private int age;
 	
 	//Behavior - default constructor
-	public Person_P(){
+	public Person_P() {
 		this.name="Unknown";
 		this.age = 0;		
 	}

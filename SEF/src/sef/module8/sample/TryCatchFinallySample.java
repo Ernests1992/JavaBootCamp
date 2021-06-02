@@ -23,7 +23,7 @@ public class TryCatchFinallySample {
 		//As long as we try to print it, it'd work and print null.		
 		System.out.println(str);
 		str = "Intelligent student ";
-		int temp1=0;
+		int temp1 = 0;
 		int temp2 = 10;
 		
 		//However, when we try to execute any operations on it, it'd throw a NullPointerException 
@@ -39,13 +39,16 @@ public class TryCatchFinallySample {
 		try {
 			System.out.println(str.toUpperCase());
 			
-			System.out.println(temp1/temp2);
-		} catch (NullPointerException e) {
-			System.out.println("A variable is not initialized");
-		}catch(ArithmeticException e) {
-			System.out.println("I can not perform division operation if divident is zero");
-		}finally {
-			System.out.println("Noth wrong has happend while executing the code ! ");
+			System.out.println(temp1 / temp2);
+		}
+		catch (NullPointerException e) {
+			System.out.println("A variable is not initialized.");
+		}
+		catch(ArithmeticException e) {
+			System.out.println("I can not perform division operation if divided is zero.");
+		}
+		finally {
+			System.out.println("Nothing wrong has happened while executing the code !");
 		}
 	}
 	
