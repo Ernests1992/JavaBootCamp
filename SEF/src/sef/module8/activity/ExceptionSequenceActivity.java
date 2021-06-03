@@ -45,15 +45,13 @@ public class ExceptionSequenceActivity {
 		try {
 			System.out.println(num1 / num2);
 		}
-		catch(Exception e)
-		{
+		catch(Exception e) {
 			try {
 				System.out.println("Exception!!!");
 				System.out.println(num1 / num2);
 				//Added the previous line repeatedly, so that the nested try-catch is activated
 			}
-			catch(ArithmeticException a)
-			{
+			catch(ArithmeticException a) {
 				System.out.println("Division by zero is not allowed");
 			}
 		}
