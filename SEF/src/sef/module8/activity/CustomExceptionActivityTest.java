@@ -8,13 +8,13 @@ public class CustomExceptionActivityTest {
 	//1 - Type main method and call validateUser() from it.
 	//Call this method with different names to test it
     public static void main(String[] args) {
+        String[] userNames = {"John","Mike","Shanti","Stacie", "Jack"};
         try {
             CustomExceptionActivityTest customExceptionActivityTest = new CustomExceptionActivityTest();
-            customExceptionActivityTest.validateUser("John");
-            customExceptionActivityTest.validateUser("Mike");
-            customExceptionActivityTest.validateUser("Shanti");
-            customExceptionActivityTest.validateUser("Stacie");
-            customExceptionActivityTest.validateUser("Jack");
+            for (String userName: userNames) {
+                System.out.println("Validating user " + userName + ":");
+                customExceptionActivityTest.validateUser(userName);
+            }
         }
         catch(CustomExceptionActivity e) {
             System.out.println(e.getMessage());
