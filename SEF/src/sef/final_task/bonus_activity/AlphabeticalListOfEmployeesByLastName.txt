@@ -1,0 +1,13 @@
+Employees in alphabetical order (by last name):
+First Name	Last Name	Age	Job Title	Company Name		Salary
+Mike	Berry	26	middle developer	Company B	2200.0
+John	Krause	25	junior developer	Company A	1100.0
+Shanti	Roth	27	senior developer	Company C	3100.0
+
+Employee introductions:
+My name is Mike Berry and I am 26 years old. I work as middle developer in Company B.
+My salary is 2200.0.
+My name is John Krause and I am 25 years old. I work as junior developer in Company A.
+My salary is 1100.0.
+My name is Shanti Roth and I am 27 years old. I work as senior developer in Company C.
+My salary is 3100.0.
