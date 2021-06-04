@@ -46,7 +46,6 @@ public class Employee extends Person implements Humanity {
 
 	@Override
 	public String introduce() {
-		return "My name is " + super.getFirstName() + " " + super.getLastName() + " and I am " + super.getAge() + " years old. " +
-				           "I work as " + this.jobTitle + " in " + this.companyName + ".";
+		return  super.introduce() + " I work as " + this.jobTitle + " in " + this.companyName + ".";
 	}
 }
